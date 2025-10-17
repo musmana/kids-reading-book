@@ -1,8 +1,10 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './' // ✅ or remove completely — don't use /kids-reading-book/ on Vercel
+  base: '/',
+  build: {
+    outDir: 'dist',
+  },
 })
