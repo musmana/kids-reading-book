@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <Router basename="/">
+ <Router basename="/kids-reading-book">
       <div className="flex flex-col min-h-screen bg-navy text-white">
         {/* Navbar always at top */}
         <Navbar />
